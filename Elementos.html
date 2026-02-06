@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Elementos HTML</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="elementos.html">Elementos</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+
+<h1>Elementos básicos de HTML</h1>
+
+
+<h2>Texto</h2>
+<h3>Encabezado nivel 3</h3>
+<p>
+    Este es un párrafo de ejemplo donde se utiliza
+    <strong>texto en negrita</strong> y
+    <i>texto en cursiva</i>.
+</p>
+
+
+<h2>Vínculos</h2>
+<p>
+    Enlace interno:
+    <a href="tablas.html">Ir a la página de Tablas</a>
+</p>
+<p>
+    Enlace externo:
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+        Documentación oficial de HTML
+    </a>
+</p>
+
+
+<h2>Listas</h2>
+
+<h3>Lista ordenada</h3>
+<ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ol>
+
+<h3>Lista no ordenada</h3>
+<ul>
+    <li>Chrome</li>
+    <li>Firefox</li>
+    <li>Edge</li>
+</ul>
+
+
+<h2>Imagen</h2>
+<img
+    src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg"
+    alt="Ejemplo de imagen HTML"
+    width="200">
+
+<h2>Elemento embebido</h2>
+<iframe
+    width="300"
+    height="200"
+    src="https://www.youtube.com/embed/UB1O30fR-EE"
+    title="Introducción a HTML">
+</iframe>
+
+<h2>Formulario</h2>
+<form>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br><br>
+
+    <label for="correo">Correo electrónico:</label><br>
+    <input type="email" id="correo" name="correo"><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+    <label for="opcion">Carrera:</label><br>
+    <select id="opcion" name="opcion">
+        <option>ITI</option>
+        <option>ISC</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

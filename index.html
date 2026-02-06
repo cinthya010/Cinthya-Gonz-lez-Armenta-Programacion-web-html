@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación Web</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="elementos.html">Elementos</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="titulo-pagina">Mi primera página en Desarrollo Web - UPA ISC / ITI</h1>
+    <h2>Cinthya González Armenta</h2>
+    <h3>Ingeniería en Tecnologías de la Información e Innovación Digital</h3>
+    <h4>Universidad Politécnica de Atlacomulco</h4>
+    <h5>Programación Web</h5>
+    <h6>Ejemplo de encabezado nivel 6</h6>
+
+   
+    <p>
+        Este es el contenido de un párrafo donde el texto es corrido
+        y se demuestra el uso correcto de la etiqueta <strong>&lt;p&gt;</strong>.
+    </p>
+
+    <hr>
+
+    <h1>Etiquetas de contenido</h1>
+
+    
+    <strong>1. Párrafo: &lt;p&gt;</strong>
+    <p>
+        Define una parte que debe mostrarse como un párrafo.
+    </p>
+
+   
+    <strong>2. Pre: &lt;pre&gt;</strong>
+    <pre>
+Este texto está preformateado.
+Conserva espacios y saltos de línea.
+Ideal para código o ejemplos.
+    </pre>
+
+    
+    <strong>3. Blockquote: &lt;blockquote&gt;</strong>
+    <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/blockquote">
+        Representa un contenido citado desde otra fuente.
+    </blockquote>
+
+   
+    <strong>4. Lista ordenada: &lt;ol&gt;</strong>
+    <ol type="1">
+        <li>Luis</li>
+        <li>Ana</li>
+        <li>Carlos</li>
+        <li>Mariana</li>
+        <li>Antonio</li>
+    </ol>
+
+    <strong>Lista no ordenada: &lt;ul&gt;</strong>
+    <ul type="square">
+        <li>Perro</li>
+        <li>Gato</li>
+        <li>Pájaro</li>
+        <li>Pez</li>
+        <li>Conejo</li>
+    </ul>
+
+   
+    <strong>5. Lista de términos y definiciones: &lt;dl&gt;</strong>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de Marcas de Hipertexto.</dd>
+
+        <dt>CSS</dt>
+        <dd>Hojas de estilo en cascada para diseño visual.</dd>
+    </dl>
+
+ 
+    <strong>6. Figure: &lt;figure&gt;</strong>
+    <figure>
+        <img src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg"
+             alt="Ejemplo de imagen" width="200">
+        <figcaption>Ejemplo de figura en HTML</figcaption>
+    </figure>
+
+
+    <strong>7. Vínculos o enlaces: &lt;a&gt;</strong>
+    <p>
+        Enlace interno:
+        <a href="tablas.html">Ir a Tablas</a>
+    </p>
+    <p>
+        Enlace externo:
+        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
+            Documentación HTML
+        </a>
+    </p>
+
+
+    <strong>8. Elemento embebido (iframe)</strong>
+    <iframe width="300" height="200"
+        src="https://www.youtube.com/watch?v=ELSm-G201Ls&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb"
+        title="Video HTML">
+    </iframe>
+
+
+    <strong>9. Formulario</strong>
+    <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+        <label for="opcion">Carrera:</label><br>
+        <select id="opcion" name="opcion">
+            <option>ITI</option>
+            <option>ISC</option>
+        </select><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <code>alert('Ejemplo de código JavaScript');</code><br>
+    <time datetime="2026-01-24">24 de enero de 2026</time><br>
+    <mark>Texto resaltado</mark>
+
+</body>
+</html>
