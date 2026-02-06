@@ -6,6 +6,12 @@
         <title>Programaci&oacute;n web com HTML CSS</title>
     </head>
     <body>
+        <nav>
+            <a href="index.html">Inicio</a> | 
+            <a href="elementos.html">Elementos</a> | 
+            <a href="tablas.html">Tablas</a>
+        </nav>
+
          <h1 id="titulo-pagina">Mi primera p&aacute;gina en desarrollo Web - UPA ISC / ITI</h1>
          <h2>Cinthya Gonzalez Armenta</h2>
          <h3>Ingenieria en Tecnologias de la Informacion e Innovaci&oacute;n Digital</h3>
@@ -79,15 +85,18 @@
 
         <div>
             <strong>7. V&iacute;nculos o enlaces: &lt;a&gt;</strong><br>
-            Enlace interno: <a href="tablas.html">Ir a Tablas</a><br>
+            Enlace interno a tablas: <a href="tablas.html">Ir a Tablas</a><br>
+            Enlace interno a elementos: <a href="elementos.html">Ir a Elementos</a><br>
             Enlace externo: <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Documentaci&oacute;n HTML</a>
         </div>
 
         <br>
 
         <div>
-            <strong>8. Elemento embebido (iframe/objeto):</strong><br>
-            <iframe src="elementos.html" width="400" height="200" title="Contenido embebido"></iframe>
+            <strong>8. Elemento embebido (Objeto):</strong><br>
+            <object data="tablas.html" width="400" height="200" border="1">
+                Tu navegador no soporta el objeto.
+            </object>
         </div>
 
         <br>
@@ -99,13 +108,6 @@
                 <input type="text" name="nombre"><br>
                 <label>Correo:</label><br>
                 <input type="email" name="correo"><br>
-                <label>Mensaje:</label><br>
-                <textarea name="mensaje"></textarea><br>
-                <label>Carrera:</label><br>
-                <select name="carrera">
-                    <option value="ITI">ITI</option>
-                    <option value="ISC">ISC</option>
-                </select><br><br>
                 <input type="submit" value="Enviar">
             </form>
         </div>
