@@ -1,143 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programación Web</title>
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programaci&oacute;n web com HTML CSS</title>
+    </head>
+    <body>
+         <h1 id="titulo-pagina">Mi primera p&aacute;gina en desarrollo Web - UPA ISC / ITI</h1>
+         <h2>Cinthya Gonzalez Armenta</h2>
+         <h3>Ingenieria en Tecnologias de la Informacion e Innovaci&oacute;n Digital</h3>
+         <h4>Universidad Polit&eacute;cnica de Atlacomulco</h4>
+         <h5>Programaci&oacute;n Web</h5>
+         <h6>Dius laborum pariatur minim eu ipsum</h6>
 
+         <p>      
+            Este es el contenido de un parrafo<br/>
+            por el momento no colocar saltos de linea <br>
+            el texto <br>
+            es corrido
+         </p>
 
-<body>
+         <hr />
+         
+         <h1>Etiquetas de contenido</h1>
+         <div>1. Parrafo: &lt;p&gt;</div>
+         <p>
+            Define un párrafo de texto, es decir, un bloque de contenido que se muestra separado visualmente de otros párrafos. <br>Creando una pausa natural en la lectura y una distancia predeterminada entre ellos, ideal para estructurar textos en una página web.
+         </p>
+         <div>
+            <strong>2. Pre: &lt;pre&gt;</strong>
+        </div>
+         <pre>Define texto preformateado que mantiene exactamente los espacios, tabulaciones y saltos de línea escritos en el código fuente. 
+            <br>Visualiza el contenido con una fuente monoespaciada (ancho fijo), ideal para mostrar bloques de código, arte ASCII o poesía.
+         </pre>
 
-    
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="elementos.html">Elementos</a></li>
-            <li><a href="tablas.html">Tablas</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+         <div>3. Blockquote: &lt;blockquote&gt;</div>
+         <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/blockquote">
+            Es una etiqueta HTML semántica para indicar una cita en bloque, es decir, un fragmento de texto extenso tomado de otra fuente, que se muestra visualmente distinto (generalmente con sangría) y puede incluir el atributo cite para la URL de la fuente original. 
+        </blockquote>
 
-    <h1 id="titulo-pagina">Mi primera página en Desarrollo Web - UPA ISC / ITI</h1>
-    <h2>Cinthya González Armenta</h2>
-    <h3>Ingeniería en Tecnologías de la Información e Innovación Digital</h3>
-    <h4>Universidad Politécnica de Atlacomulco</h4>
-    <h5>Programación Web</h5>
-    <h6>Ejemplo de encabezado nivel 6</h6>
+        <div>
+            <strong>4. Listas: &lt;ol&gt;</strong>
+            <ol start ="1" type="1">
+                <li>Luis</li>
+                <li>Ana</li>
+                <li>Carlos</li>
+                <li>Mariana</li>
+                <li>Antonio</li>
+            </ol>
 
-   
-    <p>
-        Este es el contenido de un párrafo donde el texto es corrido
-        y se demuestra el uso correcto de la etiqueta <strong>&lt;p&gt;</strong>.
-    </p>
+            <strong>4. Listas: &lt;ul&gt;</strong>
+            <ul title="Conteo de animales" type="square">
+                <li>Perro</li>
+                <li>Gato</li>
+                <li>Pajaro</li>
+                <li>Pez</li>
+                <li>Conejo</li>
+            </ul>
+        </div>
 
-    <hr>
+        <div>
+            <strong>5. dl: &lt;dl&gt; - Lista de terminos y Definiciones</strong>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de Marcas de Hipertexto</dd>
+                <dt>CSS</dt>
+                <dd>Hojas de estilo en cascada: Sirve para asignar contenido de presentaci&oacute;n HTML</dd>
+            </dl>
+        </div>
 
-    <h1>Etiquetas de contenido</h1>
+        <div>
+            <strong>6. Figure: &lt;figure&gt; - Figura ilustrada</strong>
+            <figure>
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" width="250" height="250" alt="imagen CA">
+                <figcaption>Pie de pagina</figcaption>
+            </figure>
+        </div>
 
-    
-    <strong>1. Párrafo: &lt;p&gt;</strong>
-    <p>
-        Define una parte que debe mostrarse como un párrafo.
-    </p>
+        <div>
+            <strong>7. V&iacute;nculos o enlaces: &lt;a&gt;</strong><br>
+            Enlace interno: <a href="tablas.html">Ir a Tablas</a><br>
+            Enlace externo: <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">Documentaci&oacute;n HTML</a>
+        </div>
 
-   
-    <strong>2. Pre: &lt;pre&gt;</strong>
-    <pre>
-Este texto está preformateado.
-Conserva espacios y saltos de línea.
-Ideal para código o ejemplos.
-    </pre>
+        <br>
 
-    
-    <strong>3. Blockquote: &lt;blockquote&gt;</strong>
-    <blockquote cite="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/blockquote">
-        Representa un contenido citado desde otra fuente.
-    </blockquote>
+        <div>
+            <strong>8. Elemento embebido (iframe/objeto):</strong><br>
+            <iframe src="elementos.html" width="400" height="200" title="Contenido embebido"></iframe>
+        </div>
 
-   
-    <strong>4. Lista ordenada: &lt;ol&gt;</strong>
-    <ol type="1">
-        <li>Luis</li>
-        <li>Ana</li>
-        <li>Carlos</li>
-        <li>Mariana</li>
-        <li>Antonio</li>
-    </ol>
+        <br>
 
-    <strong>Lista no ordenada: &lt;ul&gt;</strong>
-    <ul type="square">
-        <li>Perro</li>
-        <li>Gato</li>
-        <li>Pájaro</li>
-        <li>Pez</li>
-        <li>Conejo</li>
-    </ul>
+        <div>
+            <strong>9. Formulario:</strong>
+            <form action="#">
+                <label>Nombre:</label><br>
+                <input type="text" name="nombre"><br>
+                <label>Correo:</label><br>
+                <input type="email" name="correo"><br>
+                <label>Mensaje:</label><br>
+                <textarea name="mensaje"></textarea><br>
+                <label>Carrera:</label><br>
+                <select name="carrera">
+                    <option value="ITI">ITI</option>
+                    <option value="ISC">ISC</option>
+                </select><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
 
-   
-    <strong>5. Lista de términos y definiciones: &lt;dl&gt;</strong>
-    <dl>
-        <dt>HTML</dt>
-        <dd>Lenguaje de Marcas de Hipertexto.</dd>
+        <br>
 
-        <dt>CSS</dt>
-        <dd>Hojas de estilo en cascada para diseño visual.</dd>
-    </dl>
-
- 
-    <strong>6. Figure: &lt;figure&gt;</strong>
-    <figure>
-        <img src="https://www.eniun.com/wp-content/uploads/eniun-icon-user-experience.svg"
-             alt="Ejemplo de imagen" width="200">
-        <figcaption>Ejemplo de figura en HTML</figcaption>
-    </figure>
-
-
-    <strong>7. Vínculos o enlaces: &lt;a&gt;</strong>
-    <p>
-        Enlace interno:
-        <a href="tablas.html">Ir a Tablas</a>
-    </p>
-    <p>
-        Enlace externo:
-        <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">
-            Documentación HTML
-        </a>
-    </p>
-
-
-    <strong>8. Elemento embebido (iframe)</strong>
-    <iframe width="300" height="200"
-        src="https://www.youtube.com/watch?v=ELSm-G201Ls&list=PLE8uP447fYpgOwKgbypiCGSz7veY2MLGb"
-        title="Video HTML">
-    </iframe>
-
-
-    <strong>9. Formulario</strong>
-    <form>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre"><br><br>
-
-        <label for="correo">Correo:</label><br>
-        <input type="email" id="correo" name="correo"><br><br>
-
-        <label for="mensaje">Mensaje:</label><br>
-        <textarea id="mensaje" name="mensaje"></textarea><br><br>
-
-        <label for="opcion">Carrera:</label><br>
-        <select id="opcion" name="opcion">
-            <option>ITI</option>
-            <option>ISC</option>
-        </select><br><br>
-
-        <button type="submit">Enviar</button>
-    </form>
-
-    <code>alert('Ejemplo de código JavaScript');</code><br>
-    <time datetime="2026-01-24">24 de enero de 2026</time><br>
-    <mark>Texto resaltado</mark>
-
-</body>
+        <code>
+            alert('Ejemplo de c&oacute;digo JavaScript');
+        </code>
+        <br>
+        <time datetime="2026-01-24">24 de enero de 2026</time>
+        <br>
+        <mark>Texto resaltado</mark>
+    </body>
 </html>
